@@ -13,7 +13,7 @@ import Cocoa
 import PlaygroundSupport
 
 // Create canvas
-let canvas = Canvas(width: 400, height: 300)
+let canvas = Canvas(width: 500, height: 400)
 
 /*:
  ## Add your code below
@@ -23,7 +23,7 @@ let canvas = Canvas(width: 400, height: 300)
  Use whitespace and comments as appropriate.
  */
 
-canvas.drawEllipse(centreX: 400, centreY: 250, width: 400, height: 250)
+canvas.drawEllipse(centreX: 300, centreY: 200, width: 300, height: 200)
 
 /*:
  ## Use source control
