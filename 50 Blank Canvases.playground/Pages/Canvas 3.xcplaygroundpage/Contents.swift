@@ -14,13 +14,20 @@ import PlaygroundSupport
 
 // Create canvas
 let canvas = Canvas(width: 500, height: 400)
+canvas.fillColor = Color.red
+
+canvas.drawRectangle(centreX: 250, centreY: 250, width: 500, height: 500)
+
+
+canvas.drawShapesWithFill = false
+
 canvas.drawAxes()
 canvas.translate(byX: 250, byY: 200)
 canvas.drawEllipse(centreX: 0, centreY: 0, width: 300, height: 300)
 
 canvas.drawShapesWithFill = false
 
-
+canvas.drawEllipse(centreX: 75, centreY: 75, width: 75, height:75)
 
 
 
