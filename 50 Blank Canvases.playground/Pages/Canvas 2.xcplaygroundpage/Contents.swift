@@ -29,10 +29,15 @@ for x in stride(from: 0, through: 1000, by: 100) {
     if x % 200==0{
         canvas.fillColor = Color .blue
         
-        canvas.fillColor = Color.yellow
+        canvas.fillColor = Color.orange
     }
     canvas.drawRectangle(centreX: x, centreY: 0, width: 100, height: 1000)
 }
+canvas.drawEllipse(centreX: 200, centreY: 150, width: 200, height: 200)
+canvas.drawLine(fromX: 200, fromY: 250, toX: 200, toY: 50)
+canvas.drawLine(fromX: 300, fromY: 200, toX: 350, toY: 200)
+
+
 
 
 /*:

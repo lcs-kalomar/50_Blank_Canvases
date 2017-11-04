@@ -25,7 +25,8 @@ canvas.drawAxes()
 canvas.translate(byX: 250, byY: 200)
 canvas.drawEllipse(centreX: 0, centreY: 0, width: 300, height: 300)
 
-canvas.drawShapesWithFill = false
+
+
 
 canvas.drawEllipse(centreX: 75, centreY: 75, width: 75, height:75)
 
